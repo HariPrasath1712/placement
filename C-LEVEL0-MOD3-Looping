@@ -1,0 +1,203 @@
+1.Write a java program to find whether the given number is power of 2 or not.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+ public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();  
+        int p = 1, flag = 0;
+        while (p <= n) {
+            if (p == n) {
+                flag = 1;
+               
+            }
+            p = p * 2;
+        }
+        if (flag == 1)
+            System.out.println("YES");
+        else
+            System.out.println("NO");
+    }
+}
+
+2.Write a java program to print all the even numbers in the given range.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a,b,i;
+        a =sc.nextInt();
+        b=sc.nextInt();
+        for(i=a;i<=b;i++)
+        {
+            if(i%2==0)
+                System.out.print(i +" ");
+        }
+            
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
+
+3.Write a java program to print all the numbers from 1 to n.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n,i;
+        n = sc.nextInt();
+        for(i=1;i<=n;i++)
+        {
+            System.out.print(i +" ");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
+
+4.Write a java program to print all the Odd numbers from 1 to n.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int a,i;
+        a=sc.nextInt();
+        for(i=0;i<=a;i++)
+        {
+            if(i%2!=0)
+                System.out.print(i + " ");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
+
+5.Write a java program to print the multiplication table as per the multiplicant and n.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();  
+        int b = sc.nextInt();  
+
+        for (int i = 1; i <= a; i++) {
+            System.out.println(i + " * " + b + " = " + (i * b));
+        }
+    }
+}
+6.Write a java program to divide the given two numbers and print the quotient without using / operator.
+import java.util.Scanner;
+
+public class SimpleDivision {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt(); 
+        int b = sc.nextInt();  
+        int q = 0;
+        for (int i = b; i <= a; i += b) {
+            q++;
+        }
+        System.out.println(q);
+    }
+}
+7.Write a java program to find the LCM of the given two numbers.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        int n=2,a,b;
+        a=sc.nextInt();
+        b=sc.nextInt(); 
+        while(true)
+        {
+             if(n%a==0 && n%b==0)
+             {
+                 break;
+             }
+            n++;
+        }
+        System.out.println(n);
+    }
+        }
+8.Write a java program to find the sum of even numbers in the given range.
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();   
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                sum += i;  
+            }
+        }
+        System.out.println(sum);
+    }
+}
+9.Write a java program multiply the given two numbers without using * operator.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a,b,i,ans=0;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        for(i=1;i<=b;i++)
+        {
+            ans=ans+a;
+        }
+        System.out.print(ans);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
+10.Print all the alphabets for given n times.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
